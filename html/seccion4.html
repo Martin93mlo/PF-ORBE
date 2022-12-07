@@ -11,6 +11,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Sarabun:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="icon" href="../images/helmet2.ico">
     <link rel="stylesheet" href="/css/index1.css">
     <!--PARA .CSS ===    font-family: 'Sarabun', sans-serif;   -->
@@ -19,30 +20,30 @@
 <body id="body4">
     <!--+++++++++++++++++++++++++++++++++++++...HEADER...++++++++++++++++++++++++++++++++++++++++++++++-->
     <header class="header1">
-        <div class="hfix-cont1">
+        <div class="header__cont1">
                 <b><input class="cont1__in" type="text" name="Search" placeholder="Search"><input class="cont1__in" type="submit" value="GO"></b>
-                <b><h1>DAFT PUNK</h1></b>
+                <b><h1 class="animate__animated animate__fadeIn-3s">DAFT PUNK</h1></b>
                 <b><audio class="cont1__in" src="/audios/seccion4.mp3" controls loop title="Now Playing: Derezzed (Tron Legacy)"></audio></b>                     
         </div>
         
         <img id="imgsec4" src="/images/dp5.png" alt="daft punk">
     </header>
     <!--+++++++++++++++++++++++++++++++++++++++...NAV...+++++++++++++++++++++++++++++++++++++++++++++++
-    crear 7 html en total, siendo el primero "index1" y el resto "section2" consecutivamente hasta
+    crear 5 html en total, siendo el primero "index1" y el resto "section2" consecutivamente hasta
     cubrir las secciones "HOME - THE BEGINNING - THE ROBOTS - DISCOGRAPHY - JOIN US"-->
                 <nav class="nav1">
-                    <div class="nav1-cont">
-                        <a class="home" href="../index1.html">Home</a>
-                        <a class="begg" href="/html/seccion2.html">The Beginning</a>
-                        <a class="robots" href="/html/seccion3.html">The Robots</a>
-                        <a class="disco" href="/html/seccion4.html">Discography</a>
-                        <a class="join" href="/html/seccion5.html">Join Us</a>
+                    <div class="nav1__cont1">
+                        <a class="home" href="../index.html">Home</a>
+                        <a class="begg" href="seccion2.html">The Beginning</a>
+                        <a class="robots" href="seccion3.html">The Robots</a>
+                        <a class="disco" href="seccion4.html">Discography</a>
+                        <a class="join" href="seccion5.html">Join Us</a>
                     </div>
                     
                 </nav>
     <!--+++++++++++++++++++++++++++++++++++++++...MAIN...++++++++++++++++++++++++++++++++++++++++++++++-->
                 <main>
-                    <h1>Discography</h1>
+                    <h1 class="animate__animated animate__pulse">Discography</h1>
                     <section>
                         <article>
                             <p>French electronic music duo Daft Punk released four studio albums, two live albums, one compilation album, one soundtrack album, four remix albums, two video albums, twenty-two singles and nineteen music videos. Group members Thomas Bangalter and Guy-Manuel de Homem-Christo met in 1987 while studying at the Lycée Carnot secondary school. They subsequently recorded several demo tracks together, forming Daft Punk in 1993. Their debut single "The New Wave" was released the following year on the Soma Quality Recordings label.[1] Daft Punk first found commercial success with the release of their second single "Da Funk", which peaked at number seven in France and topped the United States Billboard Hot Dance Club Play chart.</p>
@@ -56,49 +57,53 @@
                             </p>
                         </article>
                             
+                        <div style="overflow-x:auto;">
 
-                        <table cellpadding="20px">
-                            <tr>
-                                <!--Head-->
-                                <th>Album</th>
-                                <th>Year</th>
-                                <th>Album Cover</th>
-                                <th>Best Song</th>
-                                <th>Play</th>
-                            </tr>
-                            <tr>
-                                <!--Homework-->
-                                <td>Homework</td>
-                                <td>1997</td>
-                                <td><img src="/images/homework1.jpg" alt="Homework cover" width="100px"></td>
-                                <td>Around the World</td>
-                                <td><audio src="/audios/around1.mp3" controls></audio></td>
-                            </tr>
-                            <tr>
-                                <!--Discovery-->
-                                <td>Discovery</td>
-                                <td>2001</td>
-                                <td><img src="/images/discoverycover1.jpg" alt="Discovery cover" width="100px"></td>
-                                <td>One more Time</td>
-                                <td><audio src="/audios/onemore1.mp3" controls></audio></td>
-                            </tr>
-                            <tr>
-                                <!--Human After All-->
-                                <td>Human After All</td>
-                                <td>2005</td>
-                                <td><img src="/images/humancover1.jpg" alt="Human After All cover" width="100px"></td>
-                                <td>Technologic</td>
-                                <td><audio src="/audios/technologic1.mp3" controls></audio></td>
-                            </tr>
-                            <tr>
-                                <!--Random Acces Memories-->
-                                <td>Random Acces Memories</td>
-                                <td>2013</td>
-                                <td><img src="/images/randomcover1.jpg" alt="Random Acces Memories cover" width="100px"></td>
-                                <td>Get Lucky</td>
-                                <td><audio src="/audios/getlucky1.mp3" controls></audio></td>
-                            </tr>
-                        </table>
+                            <table cellpadding="20px">
+                                <tr>
+                                    <!--Head-->
+                                    <th>Album</th>
+                                    <th>Year</th>
+                                    <th>Album Cover</th>
+                                    <th>Best Song</th>
+                                    <th>Play</th>
+                                </tr>
+                                <tr>
+                                    <!--Homework-->
+                                    <td>Homework</td>
+                                    <td>1997</td>
+                                    <td><img src="/images/homework1.jpg" alt="Homework cover" width="100px"></td>
+                                    <td>Around the World</td>
+                                    <td><audio src="/audios/around1.mp3" controls></audio></td>
+                                </tr>
+                                <tr>
+                                    <!--Discovery-->
+                                    <td>Discovery</td>
+                                    <td>2001</td>
+                                    <td><img src="/images/discoverycover1.jpg" alt="Discovery cover" width="100px"></td>
+                                    <td>One more Time</td>
+                                    <td><audio src="/audios/onemore1.mp3" controls></audio></td>
+                                </tr>
+                                <tr>
+                                    <!--Human After All-->
+                                    <td>Human After All</td>
+                                    <td>2005</td>
+                                    <td><img src="/images/humancover1.jpg" alt="Human After All cover" width="100px"></td>
+                                    <td>Technologic</td>
+                                    <td><audio src="/audios/technologic1.mp3" controls></audio></td>
+                                </tr>
+                                <tr>
+                                    <!--Random Acces Memories-->
+                                    <td>Random Acces Memories</td>
+                                    <td>2013</td>
+                                    <td><img src="/images/randomcover1.jpg" alt="Random Acces Memories cover" width="100px"></td>
+                                    <td>Get Lucky</td>
+                                    <td><audio src="/audios/getlucky1.mp3" controls></audio></td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+                        
                     </section>
                     <section class="section2">
                         <h2>Concert and Tours</h2>
