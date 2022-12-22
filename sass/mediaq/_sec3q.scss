@@ -1,0 +1,56 @@
+  /*-----------------------------------------------------------------------------------------
+SECCION 3:::::::::::::::::::::::::::::::::MOBILE::::::::::::::::::::::::::::::---------------
+---------------------------------------------------------------------------------------*/
+.frontimage1 {
+    margin-left: 20px;
+    width: 280px;
+}
+
+
+
+.robots-index {
+    display: flex;
+    flex-direction: column;
+    font-family: $font2;
+    & a {
+        color: white;
+        &:visited {
+            color: white;
+            
+        }
+    }
+    &__li1 {
+        background-color: rgb(84, 15, 15);
+        font-size: 15px;
+        padding: 5px;
+        margin: 1px;
+        border: 2px solid white;
+        
+    }
+    
+}
+
+.robots-index__li2 {
+    background-color: rgb(84, 15, 15);
+        font-size: 15px;
+        padding: 5px;
+        margin: 1px;
+        border: 2px solid white;
+        
+    &:hover {
+        padding: 5px 500px 5px 5px;
+        &::after {
+            content: "uel de Homem-Christo";
+            &:hover {
+                transition: 2s;
+            }
+        }
+    }
+}
+@import "articulos3q";
+
+
+
+
+
+

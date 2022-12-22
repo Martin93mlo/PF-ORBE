@@ -1,0 +1,47 @@
+/*----------------------------------------------------------------------------------------
+FOOTER::::::::::::::::::::MOBILE::::::::::::::::::::-----------------------------------
+----------------------------------------------------------------------------------------*/
+footer {
+    display: grid;
+}
+.footer1 { 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-items: center;
+    grid-template-areas:
+      "backed"
+      "this"
+      "instagram"
+      "youtube"
+      "twitter";
+
+      .backed { grid-area: backed; }
+  
+      .this { grid-area: this; }
+      
+      .instagram { grid-area: instagram; }
+      
+      .youtube { grid-area: youtube; }
+      
+      .twitter { grid-area: twitter; }
+
+    .footer1 img {
+        width: 150px;
+    }
+    .footer1 a {
+        color: yellowgreen;
+        text-decoration: none;
+        font-size: 30px;
+    }
+    
+    &:visited {
+        color: yellowgreen;
+        text-decoration: none;
+        font-size: 30px;
+    }
+  }
+  
+

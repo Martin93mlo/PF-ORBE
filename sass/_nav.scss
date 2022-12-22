@@ -5,9 +5,10 @@ NAVEGADOR------------
     position: sticky;
     width: 100%;
     transition: 5s;
-    font-family: 'Monoton', cursive;
+    font-family: $font2;
     font-size: 30px;
     font-weight: strong;
+    border: 3px solid white;
     border-radius: 5px;
     &:hover {
         width: 100%;
@@ -41,7 +42,7 @@ NAVEGADOR------------
             font-size: 30px;
             font-weight: strong;
                 &:hover {
-                    font-family: 'Monoton', cursive;
+                    font-family: $font2;
                     font-size: 30px;
                     font-weight: strong;
                     color: white;

@@ -1,0 +1,30 @@
+/*----------------------------------------------------------------
+NAVEGADOR:::::::::::MOBILE:::::::::------------
+----------------------------------------------------------------*/
+.nav1 {  display: grid;
+    padding: 2px;
+    margin: 2px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    justify-items: center;
+    grid-template-areas:
+      "home"
+      "begg"
+      "robots"
+      "disco"
+      "join";
+    width: 100%;
+    font-family: $font2;
+    font-size: 25px;
+    font-weight: strong;
+    border-radius: 5px;
+    .home { grid-area: home; }
+    .begg { grid-area: begg; }
+    .robots { grid-area: robots; }
+    .disco { grid-area: disco; }
+    .join { grid-area: join; };
+  
+  }
+

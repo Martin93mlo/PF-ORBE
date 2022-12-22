@@ -1,0 +1,302 @@
+/*-:::::::::::::::::::::::::::::::GRID DE LA SECCION 2:::::::::::::::::::::::::::::::::::::::::::::::::::::::-*/
+
+.art-container1 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: 0.6fr 0.7fr 0.6fr 0.7fr 0.6fr 0.9fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "art1"
+      "art2"
+      "art3"
+      "art4"
+      "art5"
+      "art6"
+      "art7"
+      "art8";
+      .art1 { grid-area: art1; }
+  
+      .art2 { grid-area: art2; }
+      
+      .art3 { grid-area: art3; }
+      
+      .art4 { grid-area: art4; }
+      
+      .art5 { grid-area: art5; }
+      
+      .art6 { grid-area: art6; }
+      
+      .art7 { grid-area: art7; }
+      
+      .art8 { grid-area: art8; }
+  }
+  
+.art1 {
+    margin: 5px;
+    list-style: none;
+    & a {
+        color: white;
+        background-color: $background1;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 50%;
+        padding: 10px;
+        margin: 3px;
+        &:active {
+            color: red;
+            font-weight: bold;
+            border: 1px solid red;
+        }
+    }
+    & img {
+        padding: 8px;
+        width: 200px;
+    }
+    & p {
+        padding: 10px;
+    }
+    & audio {
+        padding: 5px;
+        }
+
+    & li {
+        padding: 5px;
+        }
+}
+
+/*------------------------------------*/
+.art2 {
+    margin: 5px;
+    list-style: none;
+    & a {
+        color: white;
+        background-color: $background1;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 50%;
+        padding: 10px;
+        margin: 3px;
+        &:active {
+            color: red;
+            font-weight: bold;
+            border: 1px solid red;
+        }
+    }
+    & img {
+        padding: 8px;
+        width: 200px;
+    }
+    & p {
+        padding: 10px;
+    }
+    & audio {
+        padding: 5px;
+        }
+
+    & li {
+        padding: 5px;
+        }
+    
+ }
+ /*------------------------------------*/
+ .art3 {
+    margin: 5px;
+    list-style: none;
+    & a {
+        color: white;
+        background-color: $background1;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 50%;
+        padding: 10px;
+        margin: 3px;
+        &:active {
+            color: red;
+            font-weight: bold;
+            border: 1px solid red;
+        }
+    }
+    & img {
+        padding: 8px;
+        width: 200px;
+    }
+    & p {
+        padding: 10px;
+    }
+    & audio {
+        padding: 5px;
+        }
+
+    & li {
+        padding: 5px;
+        }
+ }
+ /*------------------------------------*/
+ .art4 {
+    margin: 5px;
+    list-style: none;
+    & a {
+        color: white;
+        background-color: $background1;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 50%;
+        padding: 10px;
+        margin: 3px;
+        &:active {
+            color: red;
+            font-weight: bold;
+            border: 1px solid red;
+        }
+    }
+    & img {
+        padding: 8px;
+        width: 200px;
+    }
+    & p {
+        padding: 10px;
+    }
+    & audio {
+        padding: 5px;
+        }
+
+    & li {
+        padding: 5px;
+        }
+
+ }
+ /*------------------------------------*/
+ .art5 {
+    margin: 5px;
+    list-style: none;
+    & a {
+        color: white;
+        background-color: $background1;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 50%;
+        padding: 10px;
+        margin: 3px;
+        &:active {
+            color: red;
+            font-weight: bold;
+            border: 1px solid red;
+        }
+    }
+    & img {
+        padding: 8px;
+        width: 200px;
+    }
+    & p {
+        padding: 10px;
+    }
+    & audio {
+        padding: 5px;
+        }
+
+    & li {
+        padding: 5px;
+        }
+ }
+ /*------------------------------------*/
+ .art6 {
+    margin: 5px;
+    list-style: none;
+    & a {
+        color: white;
+        background-color: $background1;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 50%;
+        padding: 10px;
+        margin: 3px;
+        &:active {
+            color: red;
+            font-weight: bold;
+            border: 1px solid red;
+        }
+    }
+    & img {
+        padding: 8px;
+        width: 200px;
+    }
+    & p {
+        padding: 10px;
+    }
+    & audio {
+        padding: 5px;
+        }
+
+    & li {
+        padding: 5px;
+        }
+
+ }
+ /*------------------------------------*/
+ .art7 {
+    margin: 5px;
+    list-style: none;
+    & a {
+        color: white;
+        background-color: $background1;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 50%;
+        padding: 10px;
+        margin: 3px;
+        &:active {
+            color: red;
+            font-weight: bold;
+            border: 1px solid red;
+        }
+    }
+    & img {
+        padding: 8px;
+        width: 200px;
+    }
+    & p {
+        padding: 10px;
+    }
+    & audio {
+        padding: 5px;
+        }
+
+    & li {
+        padding: 5px;
+        }
+     
+ }
+ /*------------------------------------*/
+ .art8 {
+    margin: 5px;
+    list-style: none;
+    & a {
+        color: white;
+        background-color: $background1;
+        border: 1px solid white;
+        border-radius: 25px;
+        margin-left: 50%;
+        padding: 10px;
+        margin: 3px;
+        &:active {
+            color: red;
+            font-weight: bold;
+            border: 1px solid red;
+        }
+    }
+    & img {
+        padding: 8px;
+        width: 200px;
+    }
+    & p {
+        padding: 10px;
+    }
+    & audio {
+        padding: 5px;
+        }
+
+    & li {
+        padding: 5px;
+        }
+     }
+ /*------------------------------------*/

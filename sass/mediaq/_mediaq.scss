@@ -1,0 +1,36 @@
+@media only screen and (max-width: 320px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        padding: 2px;
+        margin: 2px;
+        a {
+            text-decoration: none;
+        }
+        &:visited {
+            text-decoration: none;
+        }
+    }
+    @import "mainimageq";
+    @import "headerq";
+    @import "navq";
+    @import "footerq";
+    @import "sec2q";
+    @import "sec3q";
+    @import "sec5q";
+    
+
+
+
+    
+    #body1 {
+        font-family: $font1;
+        background-image: url(../images/dp1-1.jpg);
+        color: white;
+    }
+
+}

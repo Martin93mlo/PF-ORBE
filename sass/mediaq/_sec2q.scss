@@ -1,9 +1,11 @@
 /*------------------------------------------------------------------------------------
-SECCION 2
+SECCION 2 ----:::::::::::::::::::MOBILE::::::::::::::::::::::::::::::---------------
 --------------------------------------------------------------------------------------*/
 /*-----------------------------------
 INDEX ----------
 ----------------------------------*/
+
+
 #body2 {
     font-family: $font1;
     background-image: url(../images/bgseccion2-4.jpg);
@@ -17,8 +19,8 @@ INDEX ----------
     }
     .index-cont1 {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
+        flex-flow: column;
+        margin-left: 30px;
             &__a {
                 color: white;
                 font-family: $font2;
@@ -27,12 +29,10 @@ INDEX ----------
                 background-image: url(../images/bggif4.jpg);
                 object-fit: contain;
                 background-position: center center;
-                margin: 5px;
-                padding: 4%;
                 opacity: .5;
                 border-radius: 5%;
                 width: 220px;
-                &:hover {
+                &:active {
                     background-image: url(../images/robotrock.gif);
                     object-fit: cover;
                     background-position: center center;
@@ -43,7 +43,7 @@ INDEX ----------
                 & a {
                     color: white;
                     padding: 1px;
-                    &:hover {
+                    &:active {
                         color: red;
                     }
                 }
@@ -56,4 +56,4 @@ INDEX ----------
 /*------------------------------------
 ARTICULOS ---------
 ------------------------------------*/
-@import "articulos2";
+@import "articulos2q"

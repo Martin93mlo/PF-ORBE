@@ -11,6 +11,13 @@ SECCION 4---------------------------------
         object-fit: contain;
         object-position: center;
     }
+    a {
+        text-decoration: none;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+    
 }
 
 
