@@ -62,3 +62,12 @@ Desde ya muchas gracias por su tiempo, un gran saludo y espero que les guste est
 entrega!
  un abrazo!
 martin
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::ULTIMA ENTREGA - PROYECTO FINAL::::::::::::::::::::::::::::::::::::::::::::::
+Estimada profesora;
+Perdon por entregar el ultimo día, se que nos pidio reiteradas veces que entreguemos con tiempo para alivianarle el trabajo, la verdad que entre el cierre del año en el trabajo, atendiendo a mis hijas porque terminaron las clases y los festejos por el mundial, me atrasé mas de lo debido...
+Este es mi trabajo, realmente me costo un poco cambiar todo el estilo cuando aprendimos sass, tuve muchos problemas con la anidacion y varias etiquetas clase no habia usado la metodologia bem, por lo que me resulto un poco frustrante al principio pero comprendí que era necesario alfinal.
+El mayor desafio para mi fue el responsive, no conseguía que me apliquen los cambios y fue cuando mas use el coder ask. No pude usar la propiedad extend en el responsive porque el node entendía que estaba usando una clase de otro partial por lo que tuve que desistir de usar el @extend y copiar y pegar las propiedas repetidas.
+Espero que la pagina le guste, le mando un fuerte abrazo y un beso!
+
+Martin
